@@ -1,0 +1,17 @@
+PRJ005-iam-access/
+├── README.md
+├── gui-version/
+│   ├── README.md
+│   └── project-walkthrough.md         # Screenshots & instructions for IAM setup via Console
+├── cli-version/
+│   ├── README.md
+│   └── create_iam_resources.sh        # Bash or Python script using AWS CLI or boto3
+├── terraform-version/
+│   ├── README.md
+│   ├── main.tf                        # Terraform config for IAM users, groups, roles
+│   ├── variables.tf                   # Variables for customization (e.g., user names)
+│   ├── outputs.tf                     # (optional) Outputs like login URLs or ARNs
+│   ├── iam_policies/                  # JSON or HCL policy definitions
+│   │   └── readonly_ec2_policy.json
+│   └── terraform.tfvars               # (optional) Variable values
+└── LICENSE
