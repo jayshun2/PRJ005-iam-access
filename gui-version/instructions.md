@@ -81,7 +81,7 @@ Repeat the same steps with:
 
 ---
 
-### 🧢 4. **Create IAM Role for EC2 Access to S3**
+### 4. **Create IAM Role for EC2 Access to S3**
 
 1. IAM → Click **Roles** → **Create role**
 2. Choose **Trusted entity**: `AWS service`
